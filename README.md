@@ -1,4 +1,3 @@
 # **CHURNCOMPASS: NAVIGATING CUSTOMER RETENTION IN TELCOM**
 ### Project by: Deborah Okeyo
-![photo](![Uploading pexels-joenibraw-1416530.jpg…]()
-)
+[https://www.pexels.com/photo/selective-focus-photography-of-black-rotary-phone-163007/]
