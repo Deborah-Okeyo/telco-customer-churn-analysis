@@ -42,7 +42,8 @@ ROC-AUC: 0.82
 # 6.3 Model Performance
 The model performed well in predicting non-churned customers but struggled with predicting churned customers accurately. This is reflected in the lower recall and F1-score for the churned class.
 
-6.4 ROC Curve
+# 6.4 ROC Curve
+
 ![image](https://github.com/user-attachments/assets/04b3ac7c-91f2-4506-8c0b-16a5e0344557)
 
 The ROC curve shows the model's ability to distinguish between churned and non-churned customers. The AUC (Area Under Curve) of 0.82 suggests a good performance.
