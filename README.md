@@ -17,8 +17,9 @@ The distribution of the target variable (Churn) shows that there is an imbalance
 # 4.2 Feature Importance
 
 The Random Forest model's feature importance analysis highlights that tenure, contract type, and monthly charges are the most influential features in predicting customer churn. Features related to the type of services subscribed (like Internet service and tech support) also play a significant role.
+![image](https://github.com/user-attachments/assets/57ab2140-e2df-4ba3-88ae-41326df3daf6)
 
-5. Data Preprocessing
+# 5. Data Preprocessing
 5.1 Handling Missing Values and Encoding
 Missing Values: The TotalCharges column had some missing values, which were imputed with the median of the column.
 Encoding: Categorical variables were encoded using OneHotEncoding to prepare them for model training.
