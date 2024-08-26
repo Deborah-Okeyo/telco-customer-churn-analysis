@@ -20,17 +20,17 @@ The Random Forest model's feature importance analysis highlights that tenure, co
 ![image](https://github.com/user-attachments/assets/57ab2140-e2df-4ba3-88ae-41326df3daf6)
 
 # 5. Data Preprocessing
-5.1 Handling Missing Values and Encoding
-Missing Values: The TotalCharges column had some missing values, which were imputed with the median of the column.
+# 5.1 Handling Missing Values
+Missing Values: The dataset had no missing values.
 Encoding: Categorical variables were encoded using OneHotEncoding to prepare them for model training.
-5.2 Addressing Class Imbalance
+# 5.2 Addressing Class Imbalance
 Given the imbalance in the dataset, we applied the SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic samples for the minority class (churned customers). This technique helped in building a more balanced and effective predictive model.
 
-6. Model Development
-6.1 Model Selection
+# 6. Model Development
+# 6.1 Model Selection
 A Random Forest Classifier was chosen for its robustness and ability to handle both numerical and categorical data. The model was trained on the preprocessed dataset and evaluated using the test set.
 
-6.2 Model Evaluation
+# 6.2 Model Evaluation
 The model's performance was evaluated using various metrics:
 
 Accuracy: 78%
@@ -38,27 +38,32 @@ Precision (Churn): 63%
 Recall (Churn): 45%
 F1-Score (Churn): 53%
 ROC-AUC: 0.82
-6.3 Model Performance
+
+# 6.3 Model Performance
 The model performed well in predicting non-churned customers but struggled with predicting churned customers accurately. This is reflected in the lower recall and F1-score for the churned class.
 
 6.4 ROC Curve
+![image](https://github.com/user-attachments/assets/04b3ac7c-91f2-4506-8c0b-16a5e0344557)
 
 The ROC curve shows the model's ability to distinguish between churned and non-churned customers. The AUC (Area Under Curve) of 0.82 suggests a good performance.
 
-7. Recommendations
+# 7. Recommendations
 Based on the analysis and model results, the following strategies are recommended to improve customer retention:
 
-Target Short-Tenure Customers: Customers with shorter tenures are more likely to churn. Offering them long-term contracts or loyalty programs could improve retention.
-Reevaluate Pricing Strategies: Customers with higher monthly charges are more likely to churn. Consider revising pricing strategies, especially for this segment.
-Enhance Service Offerings: The type of services subscribed (e.g., Internet service, tech support) significantly impacts churn. Improving service offerings could reduce churn rates.
-Personalized Retention Efforts: Using the model's predictions, tailor retention strategies to individual customers based on their likelihood to churn.
-8. Limitations
+Targeting Short-Tenure Customers: Customers with shorter tenures are more likely to churn. Offering them long-term contracts could improve retention.
+Re-evaluation of Pricing Strategies: Customers with higher monthly charges are more likely to churn. Consider revising pricing strategies, especially for this segment.
+Enhancing Service Offerings: The type of services subscribed (e.g., Internet service) significantly impacts churn. Improving service offerings could reduce churn rates.
+Personalizing Retention Efforts: Using the model's predictions, tailor retention strategies to individual customers based on their likelihood to churn.
+
+# 8. Limitations
 While the model achieved reasonable accuracy, it struggled with predicting churn accurately, reflected in the low recall rate for churned customers. This limitation suggests that some customers at risk of churning may not be identified by the model. Additionally, potential biases in the dataset, such as demographic or service-related biases, could affect the model's performance.
 
-9. Conclusion
-This project successfully developed a predictive model to identify customers at risk of churning in the telecom industry. The analysis highlighted key factors influencing churn and provided actionable insights to improve customer retention. However, there is room for improvement in the model's ability to predict churn, which could be addressed in future iterations.
+# 9. Conclusion
+This project successfully developed a predictive model to identify customers at risk of churning in the telecom industry. The analysis highlighted key factors influencing churn and provided actionable insights to improve customer retention.
 
-How to Run the Project
-Clone the repository to your local machine.
-Ensure you have the necessary Python libraries installed (pandas, scikit-learn, matplotlib, seaborn).
-Run the notebook file (churn_prediction.ipynb) to see the full analysis and model training process.
+# How to Run the Project
+1. Clone the repository to your local machine.
+
+2. Ensure you have the necessary Python libraries installed (pandas, scikit-learn, matplotlib, seaborn).
+   
+3. Run the notebook file (index.ipynb) to see the full analysis and model training process.
