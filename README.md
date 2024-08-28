@@ -71,3 +71,8 @@ This project successfully developed a predictive model to identify customers at 
 2. Ensure you have the necessary Python libraries installed (pandas, scikit-learn, matplotlib, seaborn).
    
 3. Run the notebook file (index.ipynb) to see the full analysis and model training process.
+
+# Project Presentation
+
+[View the project presentation on Canva](https://www.canva.com/design/DAGPCIAAmcQ/EntEME-Hjp27iit7Sj-46w/edit?utm_content=DAGPCIAAmcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
