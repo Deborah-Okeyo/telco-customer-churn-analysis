@@ -52,8 +52,11 @@ The ROC curve shows the model's ability to distinguish between churned and non-c
 Based on the analysis and model results, the following strategies are recommended to improve customer retention:
 
 Targeting Short-Tenure Customers: Customers with shorter tenures are more likely to churn. Offering them long-term contracts could improve retention.
+
 Re-evaluation of Pricing Strategies: Customers with higher monthly charges are more likely to churn. Consider revising pricing strategies, especially for this segment.
+
 Enhancing Service Offerings: The type of services subscribed (e.g., Internet service) significantly impacts churn. Improving service offerings could reduce churn rates.
+
 Personalizing Retention Efforts: Using the model's predictions, tailor retention strategies to individual customers based on their likelihood to churn.
 
 # 8. Limitations
